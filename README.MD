@@ -1,4 +1,4 @@
-# AD-HTC Fuel-Enhanced Gas Cycle Simulator 🚀
+# AD-HTC Fuel-Enhanced Gas Cycle Simulator 
 **A Course Project for Energhx Research Group, University of Lagos**
 
 ##  Overview
