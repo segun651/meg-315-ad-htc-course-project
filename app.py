@@ -9,7 +9,7 @@ pm.config["unit_temperature"] = "K"
 air = pm.get("ig.air")
 steam = pm.get("mp.H2O")
 
-st.set_page_config(page_title="Energhx AD-HTC Simulator", layout="wide")
+st.set_page_config(page_title="AD-HTC Simulator", layout="wide")
 st.title("AD-HTC Fuel-Enhanced Gas Cycle Analysis")
 st.markdown("""
 ### Modeling Assumptions
