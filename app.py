@@ -11,7 +11,14 @@ steam = pm.get("mp.H2O")
 
 st.set_page_config(page_title="Energhx AD-HTC Simulator", layout="wide")
 st.title("AD-HTC Fuel-Enhanced Gas Cycle Analysis")
-st.markdown("©2025 Energhx Research Group - Faculty of Engineering, University of Lagos")
+st.markdown("""
+### Modeling Assumptions
+- Steady-state operation
+- Ideal gas behavior for air
+- Fixed air–fuel ratio
+- Negligible pressure losses
+- Constant isentropic efficiencies
+""")
 
 # --- UI: Input Parameters ---
 with st.sidebar:
@@ -133,7 +140,7 @@ if st.button("ANALYZE SYSTEM"):
             ax_th.legend()
             st.pyplot(fig_th)
 
-        st.success("Analysis Complete. Ready for submission to Energhx.")
+        st.success("Analysis Complete. Review results and charts above.")
 
     except Exception as e:
         st.error(f"Thermodynamic Error: {e}")
