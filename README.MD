@@ -1,5 +1,5 @@
 # AD-HTC Fuel-Enhanced Gas Cycle Simulator 
-**A Course Project for Energhx Research Group, University of Lagos**
+**A Course Project MEG 315, University of Lagos**
 
 ##  Overview
 This repository contains a Python-based thermodynamic simulator for an integrated **Anaerobic Digestion (AD)** and **Hydrothermal Carbonization (HTC)** power cycle. The tool is designed to analyze "Fuel-Enhanced" gas cycles by calculating state properties and visualizing energy flows.
